@@ -31,3 +31,6 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/a
 
 'verify toast failed login exist'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/verify toast failed login exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
