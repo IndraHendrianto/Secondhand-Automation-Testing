@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
+
+Faker faker = new Faker(new Locale("in-ID"));
+
+String fullName = faker.name().fullName();
 
 'precondition success login'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, 
@@ -25,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/androi
 
 Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (1)'), 0)
 
-Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Nama'), 'Tukang Tes', 0)
+Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Nama'), fullName, 0)
 
 Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.Button - Simpan'), 0)
 
