@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.01-Success Login'), null, 
+'precondition success login'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, 
     FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView'), 0)
@@ -27,6 +28,8 @@ Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/androi
 Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Nama'), 'Tukang Tes', 0)
 
 Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.Button - Simpan'), 0)
+
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success alert'), null, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (3)'), 0)
 
@@ -46,5 +49,6 @@ Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Alamat'), 'Ja
 
 Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.Button - Simpan'), 0)
 
-Mobile.closeApplication()
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
 

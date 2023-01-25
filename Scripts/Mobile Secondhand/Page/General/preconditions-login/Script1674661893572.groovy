@@ -31,6 +31,3 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/a
 
 'verify title akun page exist'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/verify title akun page exist'), null, FailureHandling.STOP_ON_FAILURE)
-
-'close application'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)

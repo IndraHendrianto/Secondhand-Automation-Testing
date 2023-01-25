@@ -16,21 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import io.appium.java_client.AppiumDriver
+import com.kms.katalon.core.util.KeywordUtil
 
-'start application'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/start application'), null, FailureHandling.STOP_ON_FAILURE)
-
-'go to login page'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
-
-'input already email & password'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input already email and password'), null, FailureHandling.STOP_ON_FAILURE)
-
-'apply login'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
-
-'verify title akun page exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/verify title akun page exist'), null, FailureHandling.STOP_ON_FAILURE)
-
-'close application'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
+'verify success update profile alert exist'
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+def toast = driver.findElementByXPath("//android.widget.TextView[@text='Profil berhasil diperbarui']")											//generate mobile object spy
+if (toast == null) {
+	KeywordUtil.markFailed('ERROR: Toast object not found!')
+} else {
+	KeywordUtil.markPassed(toast.toString())
+	}
