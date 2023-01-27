@@ -17,8 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'tap kota field'
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (4)'), 0)
-
-'change kota on kota field'
-Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Kota'), 'Chicago', 0)
+'tap simpan button'
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/profil/android.widget.Button - Simpan'), 0)

@@ -18,25 +18,25 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'input nama lengkap'
-Mobile.setText(findTestObject('Object Repository/mobile app secondhand/Register/register page/android.widget.EditText - Masukkan nama lengkap'),
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan nama lengkap'),
 	'Tester Tamvan', 0)
 
 'input email'
-Mobile.setText(findTestObject('Object Repository/mobile app secondhand/Register/register page/android.widget.EditText - Masukkan email'),
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan email'),
 	email, 0)
 
 'input password'
-Mobile.setEncryptedText(findTestObject('Object Repository/mobile app secondhand/Register/register page/android.widget.EditText - Masukkan password'),
+Mobile.setEncryptedText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan password'),
 	'I+363Lgg2E89y9MaUC97eA==', 0)
 
 'input nomor telepon'
-Mobile.setText(findTestObject('Object Repository/mobile app secondhand/Register/register page/android.widget.EditText - Contoh 08123456789'),
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Contoh 08123456789'),
 	'08456723546', 0)
 
 'input kota'
-Mobile.setText(findTestObject('Object Repository/mobile app secondhand/Register/register page/android.widget.EditText - Masukkan kota'),
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan kota'),
 	'Depok', 0)
 
 'input alamat'
-Mobile.setText(findTestObject('Object Repository/mobile app secondhand/Register/register page/android.widget.EditText - Masukkan alamat'),
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan alamat'),
 	'Jalan Budi Utomo', 0)

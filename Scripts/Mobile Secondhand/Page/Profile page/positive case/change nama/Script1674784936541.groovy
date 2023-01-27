@@ -19,11 +19,10 @@ import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker
 
 Faker faker = new Faker(new Locale("in-ID"));
-
 String fullName = faker.name().fullName();
 
 'tap name field'
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/profil/android.widget.ImageView (1)'), 0)
 
 'change name on name field'
-Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Nama'), fullName, 0)
+Mobile.setText(findTestObject('shidqi_mobile app secondhand/Profile/Field-Nama'), fullName, 0)

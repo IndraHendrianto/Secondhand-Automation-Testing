@@ -18,4 +18,4 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'go to profile page'
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/profil/android.widget.ImageView'), 0)

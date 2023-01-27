@@ -16,9 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
 
-'tap nomor handphone field'
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (3)'), 0)
+Faker faker = new Faker(new Locale("in-ID"));
+String cityName = faker.address().cityName();
 
-'change nomor handphone on nomor handphone field'
-Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-No Handphone'), '08632547623542', 0)
+'tap kota field'
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/profil/android.widget.ImageView (4)'), 0)
+
+'change kota on kota field'
+Mobile.setText(findTestObject('shidqi_mobile app secondhand/Profile/Field-Kota'), cityName, 0)
