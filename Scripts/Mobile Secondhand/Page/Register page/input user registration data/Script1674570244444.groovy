@@ -16,10 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
+
+Faker faker = new Faker(new Locale("in-ID"));
+String streetAddress = faker.address().streetAddress();
+String cityName = faker.address().cityName();
+String fullName = faker.name().fullName();
+String numberPhone = faker.phoneNumber().phoneNumber();
 
 'input nama lengkap'
 Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan nama lengkap'),
-	'Tester Tamvan', 0)
+	fullName, 0)
 
 'input email'
 Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan email'),
@@ -31,12 +38,12 @@ Mobile.setEncryptedText(findTestObject('Object Repository/shidqi_mobile app seco
 
 'input nomor telepon'
 Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Contoh 08123456789'),
-	'08456723546', 0)
+	numberPhone, 0)
 
 'input kota'
 Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan kota'),
-	'Depok', 0)
+	cityName, 0)
 
 'input alamat'
 Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.EditText - Masukkan alamat'),
-	'Jalan Budi Utomo', 0)
+	streetAddress, 0)
