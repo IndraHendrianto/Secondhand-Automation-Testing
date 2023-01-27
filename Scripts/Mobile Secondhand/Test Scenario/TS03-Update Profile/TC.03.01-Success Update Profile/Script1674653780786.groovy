@@ -31,7 +31,7 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
 
 'verify success update exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
 
 'change nomor handphone'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/change nomor handphone'), null, FailureHandling.STOP_ON_FAILURE)
@@ -40,7 +40,7 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
 
 'verify success update exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
 
 'change kota'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/change kota'), null, FailureHandling.STOP_ON_FAILURE)
@@ -49,7 +49,7 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
 
 'verify success update exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
 
 'change alamat'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/change alamat'), null, FailureHandling.STOP_ON_FAILURE)
@@ -58,7 +58,7 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
 
 'verify success update exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
 
 'close application'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
