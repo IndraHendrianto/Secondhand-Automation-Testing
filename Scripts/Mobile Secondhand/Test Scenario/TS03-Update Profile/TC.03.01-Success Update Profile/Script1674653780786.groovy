@@ -16,43 +16,49 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.github.javafaker.Faker
-
-Faker faker = new Faker(new Locale("in-ID"));
-
-String fullName = faker.name().fullName();
 
 'precondition success login'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, 
     FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView'), 0)
+'go to profile page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/go to profile page'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (1)'), 0)
+'change nama'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/change nama'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Nama'), fullName, 0)
+'apply update data'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/apply update data'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.Button - Simpan'), 0)
+'verify success update exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success alert'), null, FailureHandling.STOP_ON_FAILURE)
+'change nomor handphone'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/change nomor handphone'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (3)'), 0)
+'apply update data'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/apply update data'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-No Handphone'), '08632547623542', 0)
+'verify success update exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.Button - Simpan'), 0)
+'change kota'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/change kota'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (4)'), 0)
+'apply update data'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/apply update data'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Kota'), 'Chicago', 0)
+'verify success update exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.Button - Simpan'), 0)
+'change alamat'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/change alamat'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.ImageView (5)'), 0)
+'apply update data'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/apply update data'), null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('mobile app secondhand/Profile/Field-Alamat'), 'Jalan Budi Utomo', 0)
-
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/profil/android.widget.Button - Simpan'), 0)
+'verify success update exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
 
 'close application'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
