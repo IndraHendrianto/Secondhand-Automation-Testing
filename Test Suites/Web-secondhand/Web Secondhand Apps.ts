@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Register Secondhand Apps</name>
+   <name>Web Secondhand Apps</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,47 +10,40 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a7a1c511-ae53-416a-b8d8-76da569587f2</testSuiteGuid>
+   <testSuiteGuid>7032e905-8fa0-489c-8ab2-307aa8d3a2be</testSuiteGuid>
    <testCaseLink>
-      <guid>1baf712a-7650-4f27-9010-ee5c550d239a</guid>
+      <guid>aa839f88-b4c6-4c7e-b826-a3e6fbe813ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS01-Registration/TC.01.01-Success Register</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TC01-Registration/TC.01.01-Success Register</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a1e970fc-ed69-4029-9606-96f680539fa3</guid>
+      <guid>5101c64f-aba8-47d1-804b-414532004880</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS01-Registration/TC.01.02-Failed Register</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TC01-Registration/TC.01.02-Failed Register</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>32748ffa-c044-4afb-b439-d326bdee07ab</guid>
+      <guid>f85e2d42-6534-447a-8531-fb4c30a4364c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.01-Success Login</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TC02-Login/TC.02.01-Success Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c695d019-a27e-4d86-820b-1522d9bfadc4</guid>
+      <guid>d1f5deac-1803-49a2-b119-a26499ae5b8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.02-Failed Login</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TC02-Login/TC.02.02-Failed Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c381b548-d5a9-4f31-b14a-551ccf59a4fc</guid>
+      <guid>b6d61a91-b33f-4812-95ea-46865fc96ffd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS03-Update Profile/TC.03.01-Success Update Profile</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c426efd9-d7f5-44b9-9b04-b5334f7cb345</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS03-Update Profile/TC.03.02-Failed Update Profile</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TC03-Update Profile/TC.03.01-Success Update Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
