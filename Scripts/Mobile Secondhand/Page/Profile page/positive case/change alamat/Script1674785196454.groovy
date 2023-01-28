@@ -16,7 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
 
-'tap daftar button'
-Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.Button - Daftar'),
-	0)
+Faker faker = new Faker(new Locale("in-ID"));
+String streetAddress = faker.address().streetAddress();
+
+'tap alamat field'
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/profil/android.widget.ImageView (5)'), 0)
+
+'change alamat on alamat field'
+Mobile.setText(findTestObject('shidqi_mobile app secondhand/Profile/Field-Alamat'), streetAddress, 0)

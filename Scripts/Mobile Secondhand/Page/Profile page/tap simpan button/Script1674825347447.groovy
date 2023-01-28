@@ -17,6 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'tap daftar button'
-Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.Button - Daftar'),
-	0)
+'tap simpan button'
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/profil/android.widget.Button - Simpan'), 0)

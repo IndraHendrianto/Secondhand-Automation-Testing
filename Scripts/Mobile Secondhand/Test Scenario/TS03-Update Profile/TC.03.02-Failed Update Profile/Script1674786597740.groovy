@@ -24,41 +24,41 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/prec
 'go to profile page'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/go to profile page'), null, FailureHandling.STOP_ON_FAILURE)
 
-'change nama'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/change nama'), null, FailureHandling.STOP_ON_FAILURE)
+'delete nama'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/negative case/delete nama'), null, FailureHandling.STOP_ON_FAILURE)
 
 'tap simpan button'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
 
-'verify success update exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
+'verify alert message exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/negative case/verify alert message exist'), null, FailureHandling.STOP_ON_FAILURE)
 
-'change nomor handphone'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/change nomor handphone'), null, FailureHandling.STOP_ON_FAILURE)
-
-'tap simpan button'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
-
-'verify success update exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
-
-'change kota'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/change kota'), null, FailureHandling.STOP_ON_FAILURE)
+'delete nomor handphone'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/negative case/delete nomor handphone'), null, FailureHandling.STOP_ON_FAILURE)
 
 'tap simpan button'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
 
-'verify success update exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
+'verify alert message exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/negative case/verify alert message exist'), null, FailureHandling.STOP_ON_FAILURE)
 
-'change alamat'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/change alamat'), null, FailureHandling.STOP_ON_FAILURE)
+'delete kota'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/negative case/delete kota'), null, FailureHandling.STOP_ON_FAILURE)
 
 'tap simpan button'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
 
-'verify success update exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/positive case/verify success update exist'), null, FailureHandling.STOP_ON_FAILURE)
+'verify alert message exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/negative case/verify alert message exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'delete alamat'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/negative case/delete alamat'), null, FailureHandling.STOP_ON_FAILURE)
+
+'tap simpan button'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/tap simpan button'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify alert message exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Profile page/negative case/verify alert message exist'), null, FailureHandling.STOP_ON_FAILURE)
 
 'close application'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)

@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'verify title akun page exist'
-Mobile.verifyElementExist(findTestObject('Object Repository/mobile app secondhand/Register/register page/android.widget.TextView - Akun Saya'),
+Mobile.verifyElementExist(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.TextView - Akun Saya'),
 	0)

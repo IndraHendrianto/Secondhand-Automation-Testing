@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'tap daftar button'
-Mobile.tap(findTestObject('Object Repository/mobile app secondhand/Register/register page/android.widget.TextView - Daftar'),
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.TextView - Daftar'),
 	0)

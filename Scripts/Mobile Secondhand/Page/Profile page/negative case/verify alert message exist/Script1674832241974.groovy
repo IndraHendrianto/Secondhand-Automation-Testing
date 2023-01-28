@@ -16,7 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import io.appium.java_client.AppiumDriver
+import com.kms.katalon.core.util.KeywordUtil
 
-'tap daftar button'
-Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.Button - Daftar'),
-	0)
+'verify alert message exist'
+Mobile.verifyElementExist(findTestObject('Object Repository/shidqi_mobile app secondhand/Profile/android.widget.TextView - Wajib diisi'), 0)
+
+'tap outside the bottom sheet'
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/profil/android.view.View'), 0)
