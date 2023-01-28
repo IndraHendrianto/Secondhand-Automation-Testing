@@ -16,16 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.github.javafaker.Faker
 
-Faker faker = new Faker(new Locale("in-ID"));
-String fullName = faker.name().fullName();
-
-WebUI.setText(findTestObject('Object Repository/shidqi_web app secondhand/Register/Page_Secondhand Store/input_Nama_inputAddress'),
-	fullName)
-
-WebUI.setText(findTestObject('Object Repository/shidqi_web app secondhand/Register/Page_Secondhand Store/input_Email address_exampleInputEmail1'),
-	email)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/shidqi_web app secondhand/Register/Page_Secondhand Store/input_Password_exampleInputPassword1'),
-	'JxnIk9NSfC1d0ai11q4DXA==')
+'verify alert message register exist'
+WebUI.verifyElementPresent(findTestObject('Object Repository/shidqi_web app secondhand/Register/Page_Secondhand Store/strong_Email sudah digunakan'),
+	0)

@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'preconditions: login'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
+
+'go to profile page'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/go to profile page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'update data'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/update data'), null, FailureHandling.STOP_ON_FAILURE)
+
+'apply update data'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/apply update data'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify success update message exist'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/verify success update message exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close browser'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)

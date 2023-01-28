@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Daftar</name>
+   <name>select_kota</name>
    <tag></tag>
-   <elementGuidId>a5e81a59-7aaa-4504-b506-990fe41e1e1a</elementGuidId>
+   <elementGuidId>68e0d8fd-769d-4c29-acf4-948d6b889b48</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit ']</value>
+         <value>//select[@id='kota']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.w-100</value>
+         <value>#kota</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>f92afc17-8b94-4749-8289-2b081ad8ae4c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit </value>
-      <webElementGuid>65a1bb88-c569-42c0-bbdb-4eb87c1b986b</webElementGuid>
+      <value>select</value>
+      <webElementGuid>645785b3-3a9f-4e13-ae7d-fd7f406cd82d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary w-100</value>
-      <webElementGuid>c270219e-b4a2-4ae9-be5c-3f3215c0b189</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>7ac96dd5-a409-4110-969b-9662351ce0a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>kota</value>
+      <webElementGuid>099eca65-11cd-4814-8264-6675bbc28c1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Daftar</value>
-      <webElementGuid>99647891-cd08-4e80-8c6c-3f044b65c021</webElementGuid>
+      <value>Pilih kotaBandungBogorJemberKediriLumajangMalangPasuruanProbolinggoYogyakarta</value>
+      <webElementGuid>6d363dea-9c45-47f9-86c0-a95d222fd920</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 form-register&quot;]/form[1]/button[@class=&quot;btn btn-primary w-100&quot;]</value>
-      <webElementGuid>76bad6fe-0060-4f03-a004-09134b53ee60</webElementGuid>
+      <value>id(&quot;kota&quot;)</value>
+      <webElementGuid>19141c9e-c60f-41d4-81ff-41e83a602148</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit ']</value>
-      <webElementGuid>f1e15f5e-9d0d-4be8-99d6-532834fb418b</webElementGuid>
+      <value>//select[@id='kota']</value>
+      <webElementGuid>1b04406f-a503-41cd-8931-5563d035bade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/form/button</value>
-      <webElementGuid>700a3f06-2f73-4a38-b881-f9c502d06587</webElementGuid>
+      <value>//div[@id='root']/div/div/div[2]/form/div[2]/select</value>
+      <webElementGuid>c2350df3-74d7-447a-b2a2-18111edcf18c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password minimal 8 karakter.'])[1]/following::button[1]</value>
-      <webElementGuid>44fd89bf-4e2b-4cb2-8142-8c704c2cf986</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota*'])[1]/following::select[1]</value>
+      <webElementGuid>bffcff08-d897-4995-a6a4-9c2e1f811edb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>68123b65-a2ee-4783-8bf4-a933c913313d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama*'])[1]/following::select[1]</value>
+      <webElementGuid>b7ac1bce-727d-49ff-8d02-b42908fd20fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sudah punya akun?'])[1]/preceding::button[1]</value>
-      <webElementGuid>709ce734-b45b-4d4b-8758-cf906d312087</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat*'])[1]/preceding::select[1]</value>
+      <webElementGuid>a64edfb0-54f2-45ae-aabf-241eb8ee3607</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk di sini'])[1]/preceding::button[1]</value>
-      <webElementGuid>7c0fe4bd-2f76-4c96-bc28-3c0a49b90794</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gdfgdfgsfsdf'])[1]/preceding::select[1]</value>
+      <webElementGuid>b425b114-4ee9-42b0-b804-be10eb4ec2f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>4c2d80f5-377b-4374-9309-76de3dbd1733</webElementGuid>
+      <value>//select</value>
+      <webElementGuid>aa4beafd-82a7-451e-b560-60112567541f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit ' and (text() = 'Daftar' or . = 'Daftar')]</value>
-      <webElementGuid>25837690-c846-4ff2-9a7a-f9f4e01eacf3</webElementGuid>
+      <value>//select[@id = 'kota' and (text() = 'Pilih kotaBandungBogorJemberKediriLumajangMalangPasuruanProbolinggoYogyakarta' or . = 'Pilih kotaBandungBogorJemberKediriLumajangMalangPasuruanProbolinggoYogyakarta')]</value>
+      <webElementGuid>50047ce4-138a-4b44-9238-8f2b5dcc279d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

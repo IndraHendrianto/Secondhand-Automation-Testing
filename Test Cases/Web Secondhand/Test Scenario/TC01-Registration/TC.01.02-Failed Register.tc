@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>open browser and navigate to Url</name>
+   <name>TC.01.02-Failed Register</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3856faa2-836f-41dc-b515-b33e3d75d1fe</testCaseGuid>
+   <testCaseGuid>e61f8167-d852-4ec4-96b3-a88a27547865</testCaseGuid>
 </TestCaseEntity>

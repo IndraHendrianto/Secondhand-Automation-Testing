@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>open browser and navigate to Url</name>
+   <name>TC.01.01-Success Register</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3856faa2-836f-41dc-b515-b33e3d75d1fe</testCaseGuid>
+   <testCaseGuid>86a9650a-9573-49a1-be4e-ae7ae5dc10e4</testCaseGuid>
 </TestCaseEntity>

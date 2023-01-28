@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>open browser and navigate to Url</name>
+   <name>TC.02.01-Success Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3856faa2-836f-41dc-b515-b33e3d75d1fe</testCaseGuid>
+   <testCaseGuid>d76c32d7-1d42-47a8-9e1c-21687f06f984</testCaseGuid>
 </TestCaseEntity>

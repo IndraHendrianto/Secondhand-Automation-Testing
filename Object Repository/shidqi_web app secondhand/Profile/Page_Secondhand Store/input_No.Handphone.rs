@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Nama_inputAddress</name>
+   <name>input_No.Handphone</name>
    <tag></tag>
-   <elementGuidId>17641548-42bc-4fcd-98fe-86fa70bc596a</elementGuidId>
+   <elementGuidId>357de8e4-6397-4903-8dfb-4a542288c958</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='inputAddress']</value>
+         <value>(//input[@id='nm_produk'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#inputAddress</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>27873502-5f5f-467c-be94-47f5cea3da71</webElementGuid>
+      <webElementGuid>e9ecb1e8-0a2c-4637-af68-9ee01a409e0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>4df60803-b0d4-40f7-9861-1b3f8a8c15d3</webElementGuid>
+      <value>type</value>
+      <webElementGuid>c8c102bc-d044-42d6-8944-5b4c75d909aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,70 +38,70 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>661e79e4-841c-4eb0-ad31-b17281557550</webElementGuid>
+      <webElementGuid>f8e61d2b-1b9b-4591-95f1-2b7a9ed5549d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>inputAddress</value>
-      <webElementGuid>630d34ff-aef1-4433-9707-c6156277ad5d</webElementGuid>
+      <value>nm_produk</value>
+      <webElementGuid>410830e7-c0b0-402e-9c12-3a4a817afc62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Nama Lengkap</value>
-      <webElementGuid>f88e8a56-3a67-4f69-b72b-bcd5ac13dd01</webElementGuid>
+      <value>+62854263762</value>
+      <webElementGuid>fdeb0665-725d-4593-9b35-e9b0f1a164ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>d</value>
-      <webElementGuid>63ee6fc9-d926-4431-a917-1ca1df9ac7be</webElementGuid>
+      <value>+624836725352</value>
+      <webElementGuid>58686360-4423-4670-9cbe-5d544c7ce892</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inputAddress&quot;)</value>
-      <webElementGuid>618c8a73-a622-4d8c-9314-2f87981294c0</webElementGuid>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container mt-5&quot;]/div[@class=&quot;row mt-3&quot;]/form[@class=&quot;col-md-6&quot;]/div[@class=&quot;col-md mb-3&quot;]/input[@id=&quot;nm_produk&quot;]</value>
+      <webElementGuid>b1a419f0-07d5-4d09-96f3-3b683021ce14</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='inputAddress']</value>
-      <webElementGuid>ce194156-44bc-4d9e-ae79-03fab7c7569c</webElementGuid>
+      <value>(//input[@id='nm_produk'])[2]</value>
+      <webElementGuid>da559612-32dd-4dd8-9cd0-7fa33a311c17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/form/div/input</value>
-      <webElementGuid>121b5d74-05d1-4bb1-9992-1ad980ce9ce6</webElementGuid>
+      <value>//div[@id='root']/div/div/div[2]/form/div[4]/input</value>
+      <webElementGuid>8b00722d-9184-469c-b55d-8a8d86c852ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>2c2ab3e1-405c-41a9-b510-bdb0e164eda2</webElementGuid>
+      <value>//div[4]/input</value>
+      <webElementGuid>7765135e-f233-4f86-befc-ed8e51ef8350</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'inputAddress' and @placeholder = 'Nama Lengkap']</value>
-      <webElementGuid>af1e883f-c682-4a3a-8743-ee7c0515633c</webElementGuid>
+      <value>//input[@type = 'type' and @id = 'nm_produk' and @placeholder = '+62854263762']</value>
+      <webElementGuid>0168d779-38e5-4301-9743-4e35a18823d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

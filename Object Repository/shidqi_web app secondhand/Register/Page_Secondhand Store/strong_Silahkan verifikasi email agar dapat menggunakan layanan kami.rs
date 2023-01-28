@@ -3,15 +3,15 @@
    <description></description>
    <name>strong_Silahkan verifikasi email agar dapat menggunakan layanan kami</name>
    <tag></tag>
-   <elementGuidId>430cdef3-cabc-46c2-8960-5dec3c65e35d</elementGuidId>
+   <elementGuidId>1bf4be58-c717-4678-a572-676d277fd6e7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.alert.alert-success.alert-dismissible.fade.show > strong</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div[2]/form/div/strong</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert.alert-success.alert-dismissible.fade.show > strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>d5d2928c-38e9-4871-aca8-c9a286e28da6</webElementGuid>
+      <webElementGuid>1c692c6e-b0fb-4cb4-ad3a-72354f5b7633</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Silahkan verifikasi email agar dapat menggunakan layanan kami</value>
-      <webElementGuid>8fa3bab7-2378-4a0f-b155-7008db4de023</webElementGuid>
+      <webElementGuid>28377a9d-e9f2-4bb5-9749-515012a8f1c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 form-register&quot;]/form[1]/div[@class=&quot;alert alert-success alert-dismissible fade show&quot;]/strong[1]</value>
-      <webElementGuid>b34a021d-6a50-4da6-9c39-d26979539ed3</webElementGuid>
+      <webElementGuid>7a322224-0be1-4590-9484-57f48607ec8a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[2]/form/div/strong</value>
-      <webElementGuid>740c3ffc-42d8-4f23-87f2-01d2b2633e6b</webElementGuid>
+      <webElementGuid>773a5447-0111-40c8-a25e-6b2269fceecd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/following::strong[1]</value>
-      <webElementGuid>10976c23-abc7-416e-aaeb-faf78b541385</webElementGuid>
+      <webElementGuid>33873659-5624-42d7-96fe-6f582e4860a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SecondHand.'])[1]/following::strong[2]</value>
-      <webElementGuid>b5e069a3-7e97-4445-a4ba-f689b0c0e7a9</webElementGuid>
+      <webElementGuid>51ec92aa-238e-4a55-b29f-88650e4e0c02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::strong[1]</value>
-      <webElementGuid>dfc65db8-5cbd-435b-9f9d-aeb3050a0088</webElementGuid>
+      <webElementGuid>10e91828-8ab0-46d7-bf8e-19232cda300c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/preceding::strong[1]</value>
-      <webElementGuid>73caa921-aa94-4e56-b9e4-7d5fb4119a2b</webElementGuid>
+      <webElementGuid>f2016bc6-4e45-4a94-8674-70a4f93ba5cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Silahkan verifikasi email agar dapat menggunakan layanan kami']/parent::*</value>
-      <webElementGuid>7fcbaba8-2534-485a-9bb8-adc233d6c59f</webElementGuid>
+      <webElementGuid>7bb6a772-6e0e-4478-9990-80c975cff6ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/strong</value>
-      <webElementGuid>f40c9c25-f8d1-4473-b726-b67c610ff616</webElementGuid>
+      <webElementGuid>fa103062-450e-4599-a7b8-98eb41be3932</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//strong[(text() = 'Silahkan verifikasi email agar dapat menggunakan layanan kami' or . = 'Silahkan verifikasi email agar dapat menggunakan layanan kami')]</value>
-      <webElementGuid>0f6bb7c3-8aa5-483d-b351-16c431a132a4</webElementGuid>
+      <webElementGuid>783553ee-2801-4051-85fd-22b3f40a18bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

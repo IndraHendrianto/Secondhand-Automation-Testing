@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Masuk</name>
+   <name>p_Berhasil update profile</name>
    <tag></tag>
-   <elementGuidId>02f2da65-80b3-443c-ab33-b04f8bf670b4</elementGuidId>
+   <elementGuidId>587e470f-a3c1-483e-a3e5-52f777b6aeb7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbarText']/ul/li/a</value>
+         <value>//div[@id='root']/div/div/div[3]/p</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li.nav-item-login > a</value>
+         <value>p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>a5e9b727-d1a3-453d-8970-4dda51f4cbec</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/login</value>
-      <webElementGuid>bd3dcbaf-092a-414a-b3ad-dc83ad3618bb</webElementGuid>
+      <value>p</value>
+      <webElementGuid>c81989b3-41d4-4fdb-8750-339d6f9479cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>3c65767f-f002-4c31-9781-37afb69d5136</webElementGuid>
+      <value>Berhasil update profile</value>
+      <webElementGuid>f7ca4e90-2cba-4b70-b2e9-9f349558d721</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[@class=&quot;nav-item-login&quot;]/a[1]</value>
-      <webElementGuid>e08006a6-6b01-4a1a-9eeb-1ba96fac370d</webElementGuid>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container mt-5&quot;]/div[@class=&quot;fade position-absolute top-0 start-50 translate-middle alert alert-success show&quot;]/p[1]</value>
+      <webElementGuid>16f6bda7-5635-462a-81bd-e36aebb6026e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarText']/ul/li/a</value>
-      <webElementGuid>1c359adf-162e-4003-90b9-d469750c720b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Masuk')]</value>
-      <webElementGuid>a51fc74e-5164-4f76-b5f8-dbdab420e560</webElementGuid>
+      <value>//div[@id='root']/div/div/div[3]/p</value>
+      <webElementGuid>bd2a4bcf-f2e5-4a03-945c-f65099166c93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulan Ramadan Banyak Diskon!'])[1]/preceding::a[1]</value>
-      <webElementGuid>f1f50d1c-afaf-48d6-a897-9958298d9faf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='submit'])[1]/following::p[1]</value>
+      <webElementGuid>ec766a14-4bd2-4c3f-8e11-99ae899aedea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskon Hingga 60%'])[1]/preceding::a[1]</value>
-      <webElementGuid>78c0b379-91bd-4508-9005-572e3ea95e6d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No.Handphone*'])[1]/following::p[1]</value>
+      <webElementGuid>4e4cdfae-e21e-4f8e-a286-590d2669f1ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
-      <webElementGuid>04eee9a1-61fc-4bdd-81d4-0b270cb3f421</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[1]</value>
+      <webElementGuid>b7b96c4d-0768-4b80-bd11-8d3fbd29aee1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>434ec899-7523-436b-8be0-488c6504f237</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::p[1]</value>
+      <webElementGuid>a09236a3-61c7-4e0d-a70a-a61b440b8f6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Berhasil update profile']/parent::*</value>
+      <webElementGuid>2b5855fb-01dc-4704-bd47-b860b2640987</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/a</value>
-      <webElementGuid>95968e37-2655-4e26-9ae9-ee75177c7ec6</webElementGuid>
+      <value>//p</value>
+      <webElementGuid>2ec970ed-ce75-4942-841e-32044e615b16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/login' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>6920c1db-f045-406e-a645-2eb02f197b6e</webElementGuid>
+      <value>//p[(text() = 'Berhasil update profile' or . = 'Berhasil update profile')]</value>
+      <webElementGuid>535f7085-2dbf-4052-ba3f-2343c169835a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
