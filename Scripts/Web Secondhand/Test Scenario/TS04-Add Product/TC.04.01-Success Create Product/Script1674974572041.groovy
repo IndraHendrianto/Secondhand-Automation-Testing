@@ -16,34 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.github.javafaker.Faker
-
-Faker faker = new Faker(new Locale("in-ID"));
-String productName = faker.commerce().productName();
-String productPrice = faker.options().option('10000', '20000', '30000', '40000', '50000');
-String categoryOpsi = faker.options().option('1', '2', '3', '4', '5');
-String productDesc = faker.lorem().sentence();
 
 'preconditions: login'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/a_Jual'))
+'go to add product page'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to add product page'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/input_Nama Produk_nm_produk'), productName)
+'input product data'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/input product data'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/input_Harga Produk_harga_produk'), 
-    productPrice)
+'apply add product'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/appy add product'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElektronikKesehatan'), 
-    categoryOpsi, false)
+'go to daftar jual saya page'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to daftar jual saya page'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/textarea_Deskripsi_deskripsi'), productDesc)
-
-WebUI.click(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/button_Terbitkan'))
-
-WebUI.click(findTestObject('Object Repository/shidqi_web app secondhand/Product/Page_Secondhand Store/a_Penawaran Produk_nav-link'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/shidqi_web app secondhand/Product/Page_Secondhand Store/product'), 0)
+'verify new product exist'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/verify new product exist'), null, FailureHandling.STOP_ON_FAILURE)
 
 'close browser'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)

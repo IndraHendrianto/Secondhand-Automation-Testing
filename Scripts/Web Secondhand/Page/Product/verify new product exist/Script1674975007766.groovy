@@ -17,14 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'open browser and navigate to Url'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/open browser and navigate to Url'), null, FailureHandling.STOP_ON_FAILURE)
-
-'click jual button'
-WebUI.click(findTestObject('Object Repository/shidqi_web app secondhand/Product/Page_Secondhand Store/a_Jual'))
-
-'verify login page exist'
-WebUI.verifyElementPresent(findTestObject('Object Repository/shidqi_web app secondhand/Product/Page_Secondhand Store/strong_Masuk'), 0)
-
-'close browser'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)
+'verify new product exist'
+WebUI.verifyElementPresent(findTestObject('Object Repository/shidqi_web app secondhand/Product/Page_Secondhand Store/product'), 0)
