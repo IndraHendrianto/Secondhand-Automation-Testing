@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.04.01-Success Create Product</name>
+   <name>TC.04.01-Success Add Product</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2ceb9e0a-d1be-4a2e-9736-b4c71b2fe730</testCaseGuid>

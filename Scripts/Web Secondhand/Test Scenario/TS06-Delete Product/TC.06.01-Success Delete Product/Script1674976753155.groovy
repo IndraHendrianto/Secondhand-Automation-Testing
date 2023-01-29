@@ -24,22 +24,16 @@ WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/precondi
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to daftar jual saya page'), null, FailureHandling.STOP_ON_FAILURE)
 
 'go to detail product page'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to detail product page'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to detail product page'), null);
 
-'click edit button'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/click edit button'), null, FailureHandling.STOP_ON_FAILURE)
-
-'change product data'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/input product data'), null, FailureHandling.STOP_ON_FAILURE)
-
-'apply update product data'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/appy add product'), null, FailureHandling.STOP_ON_FAILURE)
+'click hapus button'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/click hapus button'), null, FailureHandling.STOP_ON_FAILURE)
 
 'go to daftar jual saya page'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to daftar jual saya page'), null, FailureHandling.STOP_ON_FAILURE)
 
-'verify updated product exist'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/verify new product exist'), null, FailureHandling.STOP_ON_FAILURE)
+'verify product not exist'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/verify product not exist'), null, FailureHandling.STOP_ON_FAILURE)
 
 'close browser'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)
