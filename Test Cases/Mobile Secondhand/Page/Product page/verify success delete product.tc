@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify success delete product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4afcd7d-2635-44b8-bb42-62ec117e4c51</testCaseGuid>
+</TestCaseEntity>
