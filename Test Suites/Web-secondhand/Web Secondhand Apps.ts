@@ -74,4 +74,11 @@
       <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS06-Delete Product/TC.06.01-Success Delete Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7a24901b-78da-4454-b431-a76ea9d6d74e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS07-Buy Product/TC.07.01-Failed Buy Product</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
