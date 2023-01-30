@@ -17,6 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binar\\app-release.apk', true)
+'precondition success login'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/android.widget.TextView - Daftar Jual Saya'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/android.view.ViewGroup'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/Edit Product/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/Edit Product/android.widget.Button'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/Edit Product/Camera/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/Edit Product/Camera/android.widget.ImageButton'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/android.widget.Button - Perbarui Produk'), 0)
+
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Test Scenario/TS06-Edit Product/verify toast Succes Edit Product'), null, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
 
