@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'go to add product page'
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.ImageButton (4)'), 0)

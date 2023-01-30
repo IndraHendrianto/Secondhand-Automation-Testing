@@ -17,5 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'input product image'
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.ImageView (6)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.Button (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.LinearLayout (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.TextView - Indonesia Bertutur (1)'),
+	0)
+
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.view.ViewGroup (2)'), 0)
