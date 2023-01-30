@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify login page exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ea9901f-75df-4733-9bb3-fd932565e00f</testCaseGuid>
+</TestCaseEntity>
