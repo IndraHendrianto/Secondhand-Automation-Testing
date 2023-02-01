@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify alert message login exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0b6a09a-d8b8-41aa-b515-0a8504da455c</testCaseGuid>
+</TestCaseEntity>

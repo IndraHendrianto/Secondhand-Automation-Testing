@@ -17,5 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'verify product more than 5'
+Mobile.verifyElementVisible(findTestObject('vera_mobile_secondhand/android.widget.TextView - Kamu sudah menerbitkan 5 produk'),
+	0)

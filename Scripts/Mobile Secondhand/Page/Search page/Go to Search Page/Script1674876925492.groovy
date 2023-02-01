@@ -17,5 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+Mobile.tap(findTestObject('Object Repository/indra_mobile app secondhand/Buy Product/Positive/android.widget.ImageView (1)'),
+	0)
+
+Mobile.tap(findTestObject('Object Repository/indra_mobile app secondhand/Buy Product/Positive/android.widget.EditText - Cari di Second Chance'),
+	0)

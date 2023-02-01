@@ -17,5 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'verify alert message register exist'
+WebUI.verifyElementPresent(findTestObject('Object Repository/shidqi_web app secondhand/Register/Page_Secondhand Store/strong_Email sudah digunakan'),
+	0)

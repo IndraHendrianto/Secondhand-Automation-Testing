@@ -17,5 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'Tap delete button'
+Mobile.tap(findTestObject('Object Repository/Regita_mobile app secondhand/android.widget.ImageView (1)'), 0)
+
+'Tap hapus button'
+Mobile.tap(findTestObject('Object Repository/Regita_mobile app secondhand/android.widget.TextView - Hapus'), 0)

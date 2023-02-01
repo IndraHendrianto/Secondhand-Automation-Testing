@@ -16,6 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import io.appium.java_client.AppiumDriver
+import com.kms.katalon.core.util.KeywordUtil
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'verify toast harga tawaran berhasil dikirim'
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+def toast = driver.findElementByXPath("//android.widget.Toast[@text='Harga tawarmu berhasil dikirim ke penjual']")											//generate mobile object spy
+if (toast == null) {
+	KeywordUtil.markFailed('ERROR: Toast object not found!')
+} else {
+	KeywordUtil.markPassed(toast.toString())
+	}

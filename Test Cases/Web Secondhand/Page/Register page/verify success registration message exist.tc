@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify success registration message exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>850a5239-9833-42a0-ad4b-1ece0cd9c9c9</testCaseGuid>
+</TestCaseEntity>

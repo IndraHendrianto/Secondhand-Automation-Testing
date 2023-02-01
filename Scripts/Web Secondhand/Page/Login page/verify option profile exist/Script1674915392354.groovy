@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'click icon user'
+WebUI.click(findTestObject('shidqi_web app secondhand/Register/Page_Secondhand Store/button_Ditawar Rp1.000.000,00_user'))
+
+'verify option profile exist'
+WebUI.verifyElementPresent(findTestObject('shidqi_web app secondhand/Register/Page_Secondhand Store/a_Profile'), 0)
+

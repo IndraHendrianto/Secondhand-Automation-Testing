@@ -17,5 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+Mobile.tap(findTestObject('Object Repository/indra_mobile app secondhand/Buy Product/Positive/android.widget.Button - Saya Tertarik dan Ingin Nego'),
+	0)
+
+Mobile.setText(findTestObject('Object Repository/indra_mobile app secondhand/Buy Product/Positive/android.widget.EditText - Rp 0,00'),
+	'60000', 0)
+
+Mobile.tap(findTestObject('Object Repository/indra_mobile app secondhand/Buy Product/Positive/android.widget.Button - Kirim'),
+	0)

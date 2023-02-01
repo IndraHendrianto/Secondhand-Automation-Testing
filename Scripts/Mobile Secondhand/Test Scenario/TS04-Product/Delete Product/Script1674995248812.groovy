@@ -17,5 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'precondition success login'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, 
+    FailureHandling.STOP_ON_FAILURE)
+
+'go to Daftar Jual Saya page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Product page/go to product list page'), null,
+	FailureHandling.STOP_ON_FAILURE)
+
+'delete product'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Product page/delete product'), null,
+	FailureHandling.STOP_ON_FAILURE)
+
+'verify success delete product'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Product page/verify success delete product'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)

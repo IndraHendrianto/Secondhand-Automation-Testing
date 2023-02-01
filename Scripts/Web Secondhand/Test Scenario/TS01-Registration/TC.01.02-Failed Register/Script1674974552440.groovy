@@ -17,5 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'open browser and navigate to Url'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/open browser and navigate to Url'), null, FailureHandling.STOP_ON_FAILURE)
+
+'go to login page'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'go to daftar page'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Register page/go to daftar page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'input user registration data'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Register page/input user registration data'), [('email'): ('emailkepake@gmail.com')], FailureHandling.STOP_ON_FAILURE)
+
+'apply registration'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Register page/apply registration'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify alert message exist'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Register page/verify alert message register exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close browser'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)
+

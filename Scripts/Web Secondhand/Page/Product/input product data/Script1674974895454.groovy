@@ -16,6 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+Faker faker = new Faker(new Locale("in-ID"));
+String productName = faker.commerce().productName();
+String productPrice = faker.options().option('10000', '20000', '30000', '40000', '50000');
+String categoryOpsi = faker.options().option('1', '2', '3', '4', '5');
+String productDesc = faker.lorem().sentence();
+
+'input nama produk'
+WebUI.setText(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/input_Nama Produk_nm_produk'), productName)
+
+'input harga produk'
+WebUI.setText(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/input_Harga Produk_harga_produk'),
+	productPrice)
+
+'select kategori produk'
+WebUI.selectOptionByValue(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElektronikKesehatan'),
+	categoryOpsi, false)
+
+'input deskripsi produk'
+WebUI.setText(findTestObject('shidqi_web app secondhand/Product/Page_Secondhand Store/textarea_Deskripsi_deskripsi'), productDesc)

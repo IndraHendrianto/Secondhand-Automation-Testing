@@ -17,5 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+'pre-conditions login'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
+
+'input 6  new product'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Add Product page/Negative Case/input 6 new product'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify product more than 5'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Add Product page/Negative Case/verify product more than 5'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
