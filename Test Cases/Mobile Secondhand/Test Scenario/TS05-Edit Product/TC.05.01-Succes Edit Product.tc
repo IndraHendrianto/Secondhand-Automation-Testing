@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Succes Edit Product</name>
+   <name>TC.05.01-Succes Edit Product</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a0cb0827-af5e-4cec-ada1-c1f9243e18e4</testCaseGuid>

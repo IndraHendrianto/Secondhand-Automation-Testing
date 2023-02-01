@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.07.01-Login Logout</name>
+   <name>TC.08.01-Login Logout</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>37c85dce-5b73-4906-ad37-df380e56ca44</testCaseGuid>

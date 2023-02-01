@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Delete Product</name>
+   <name>TC.06.01-Success Delete Product</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ee7931f2-51f2-4f06-a90e-ec9dd0bd9bcf</testCaseGuid>

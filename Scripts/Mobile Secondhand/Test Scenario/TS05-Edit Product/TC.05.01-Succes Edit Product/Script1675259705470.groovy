@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/Edit Pro
 
 Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/android.widget.Button - Perbarui Produk'), 0)
 
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Test Scenario/TS06-Edit Product/verify toast Succes Edit Product'), null, FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product Page/verify toast Succes Edit Product'), null, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

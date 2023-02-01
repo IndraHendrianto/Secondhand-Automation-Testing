@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Buy some Product</description>
-   <name>Positive Buy Product</name>
+   <name>TC.07.01-Buy Product</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2f880dda-fb04-4368-92cb-f4cd5365cef9</testCaseGuid>
