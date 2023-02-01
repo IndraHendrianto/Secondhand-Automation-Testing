@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('/Users/jokopriyono/Documents/QAE-Wave5-VeraRamdhani/app-release.apk', true)
+Mobile.tap(findTestObject('Object Repository/Rafi_mobile app secondhand/android.widget.TextView - Keluar'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Rafi_mobile app secondhand/android.widget.TextView - Telusuri Kategori'),
+	0)
