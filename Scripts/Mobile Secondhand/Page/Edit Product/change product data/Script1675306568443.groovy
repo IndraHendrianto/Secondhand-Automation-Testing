@@ -16,24 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
 
-'precondition success login'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
+Faker faker = new Faker(new Locale("in-ID"));
+String productName = faker.commerce().productName();
+String productPrice = faker.options().option('10000', '20000', '30000', '40000', '50000');
+String cityName = faker.address().cityName();
+String productDesc = faker.lorem().sentence();
 
-'go to daftar jual saya page'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/go to daftar jual saya page'), null, FailureHandling.STOP_ON_FAILURE)
+'change nama produk'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/namaProduk'), productName, 0)
 
-'go to detail product page'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/go to detail product page'), null, FailureHandling.STOP_ON_FAILURE)
+'change harga produk'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/hargaProduk'), productPrice, 0)
 
-'change product data'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/change product data'), null, FailureHandling.STOP_ON_FAILURE)
+'change lokasi produk'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/lokasiProduk'), cityName, 0)
 
-'apply update product data'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/apply update product data'), null, FailureHandling.STOP_ON_FAILURE)
-
-'verify success update product data'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/verify success update product data'), null, FailureHandling.STOP_ON_FAILURE)
-
-'close app'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
+'change deskripsi produk'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/deskripsiProduk'), productDesc, 0)
