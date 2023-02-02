@@ -17,6 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'input new product'
+Mobile.setText(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.EditText - Nama Produk (2)'), 'Teh Kotak',
+	0)
 
+Mobile.setText(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.EditText - Rp 0,00 (2)'), '4500',
+	0)
+
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.Spinner - Pilih Kategori'), 0)
+
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.TextView - Lokasi (1)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.EditText - Lokasi Produk (2)'), 'Tangerang',
+	0)
+
+Mobile.setText(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.EditText - Contoh Barang bagus mantap (2)'),
+	'Teh kotak dalam botol', 0)

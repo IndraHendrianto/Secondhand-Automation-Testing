@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'input email'
+WebUI.setText(findTestObject('Object Repository/shidqi_web app secondhand/Register/Page_Secondhand Store/input_Email address_exampleInputEmail1'), 
+    emailLogin)
+
+'input password'
+WebUI.setEncryptedText(findTestObject('Object Repository/shidqi_web app secondhand/Register/Page_Secondhand Store/input_Password_exampleInputPassword1'), 
+    '8SQVv/p9jVScEs4/2CZsLw==')
 

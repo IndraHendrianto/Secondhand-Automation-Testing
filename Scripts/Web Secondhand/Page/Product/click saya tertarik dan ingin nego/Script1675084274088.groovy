@@ -17,6 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'click saya tertarik'
+WebUI.click(findTestObject('Object Repository/erika_web/Page_Secondhand Store/button_Saya tertarik dan ingin nego'))
+
+'input harga tawar'
+WebUI.setText(findTestObject('erika_web/Page_Secondhand Store/input_Harga Tawar_form-control'), '290000')
+
+'click button kirim'
+WebUI.click(findTestObject('erika_web/Page_Secondhand Store/button_Kirim'))
+
+'verify element berhasil'
+WebUI.verifyElementPresent(findTestObject('erika_web/Page_Secondhand Store/div_Harga tawarmu berhasil dikirim ke penjual'), 
+    0)
+
+'verify element menunggu respon penjual'
+WebUI.verifyElementPresent(findTestObject('erika_web/Page_Secondhand Store/div_Menunggu respon penjual'), 0)
 

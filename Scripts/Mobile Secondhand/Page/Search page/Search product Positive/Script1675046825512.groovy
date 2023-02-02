@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+Mobile.setText(findTestObject('Object Repository/indra_mobile app secondhand/Buy Product/Positive/android.widget.EditText - Cari di Second Chance (1)'),
+	'baju muslim', 0)
 
+Mobile.tap(findTestObject('Object Repository/indra_mobile app secondhand/Buy Product/Positive/android.widget.TextView - Baju muslim'),
+	0)
+
+Mobile.tap(findTestObject('Object Repository/indra_mobile app secondhand/Buy Product/Positive/androidx.recyclerview.widget.RecyclerView'),
+	0)

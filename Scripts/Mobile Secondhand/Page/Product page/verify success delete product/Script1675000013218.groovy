@@ -16,7 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
-
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import io.appium.java_client.AppiumDriver
+import com.kms.katalon.core.util.KeywordUtil
+	
+'verify success delete product'
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+def toast = driver.findElementByXPath("//android.widget.TextView[@text='Produk berhasil dihapus']")											//generate mobile object spy
+if (toast == null) {
+	KeywordUtil.markFailed('ERROR: Toast object not found!')
+} else {
+	KeywordUtil.markPassed(toast.toString())
+	}

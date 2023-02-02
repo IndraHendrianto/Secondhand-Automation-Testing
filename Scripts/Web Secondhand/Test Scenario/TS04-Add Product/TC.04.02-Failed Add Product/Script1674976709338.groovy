@@ -17,6 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'open browser and navigate to Url'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/open browser and navigate to Url'), null, FailureHandling.STOP_ON_FAILURE)
 
+'click jual button'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to add product page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify login page exist'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/verify login page exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close browser'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)

@@ -17,6 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'pre-conditions login'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
 
+'go to product page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Add Product page/go to add product page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'input new product'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Add Product page/Positive Case/input new product'), null, FailureHandling.STOP_ON_FAILURE)
+
+'input product image'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Add Product page/Positive Case/input product image'), null, FailureHandling.STOP_ON_FAILURE)
+
+'tap terbitkan'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Add Product page/tap terbitkan button'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)

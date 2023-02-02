@@ -16,7 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+Faker faker = new Faker(new Locale("in-ID"));
+String fullName = faker.name().fullName();
+String streetAddress = faker.address().streetAddress();
+String numberPhone = faker.phoneNumber().phoneNumber();
+String cityOpsi = faker.options().option('Bandung','Bogor', 'Jember', 'Kediri', 'Lumajang', 'Malang', 'Pasuruan', 'Probolinggo', 'Yogyakarta');
 
+'input new nama'
+WebUI.setText(findTestObject('shidqi_web app secondhand/Profile/Page_Secondhand Store/input_Nama'), fullName)
+
+'select kota'
+WebUI.selectOptionByValue(findTestObject('shidqi_web app secondhand/Profile/Page_Secondhand Store/select_kota'), cityOpsi, false)
+
+'input new alamat'
+WebUI.setText(findTestObject('shidqi_web app secondhand/Profile/Page_Secondhand Store/textarea_alamat'), streetAddress)
+
+'input new no handphone'
+WebUI.setText(findTestObject('shidqi_web app secondhand/Profile/Page_Secondhand Store/input_No.Handphone'), numberPhone)

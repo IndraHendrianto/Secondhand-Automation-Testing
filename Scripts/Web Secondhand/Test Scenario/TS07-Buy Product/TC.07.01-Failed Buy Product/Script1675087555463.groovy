@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'preconditions: login'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
 
+'go to product page beli'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to product page beli'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify failed buy product'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/verify failed buy product'), null, FailureHandling.STOP_ON_FAILURE)

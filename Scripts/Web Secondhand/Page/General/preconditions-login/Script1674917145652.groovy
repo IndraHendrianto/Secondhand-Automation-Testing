@@ -17,6 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'open browser and navigate to Url'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/open browser and navigate to Url'), null, FailureHandling.STOP_ON_FAILURE)
 
+'go to login page'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'input user login data'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/input user login data'), [('emailLogin'):('conilex566@quamox.com')], FailureHandling.STOP_ON_FAILURE)
+
+'apply login'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify option profile exist'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/verify option profile exist'), null, FailureHandling.STOP_ON_FAILURE)

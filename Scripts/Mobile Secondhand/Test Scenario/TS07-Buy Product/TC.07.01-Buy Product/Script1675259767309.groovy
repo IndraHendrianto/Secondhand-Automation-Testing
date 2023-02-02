@@ -17,6 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'open apps and login registered account'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
+
+'go to search page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Search page/Go to Search Page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'search product'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Search page/Search product Positive'), null, FailureHandling.STOP_ON_FAILURE)
+
+'price negotiation'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Product Page/Price Negotiation Positive'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
 

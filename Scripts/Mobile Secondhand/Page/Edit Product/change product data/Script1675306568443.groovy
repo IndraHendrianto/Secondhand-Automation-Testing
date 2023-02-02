@@ -16,7 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+Faker faker = new Faker(new Locale("in-ID"));
+String productName = faker.commerce().productName();
+String productPrice = faker.options().option('10000', '20000', '30000', '40000', '50000');
+String cityName = faker.address().cityName();
+String productDesc = faker.lorem().sentence();
 
+'change nama produk'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/namaProduk'), productName, 0)
+
+'change harga produk'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/hargaProduk'), productPrice, 0)
+
+'change lokasi produk'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/lokasiProduk'), cityName, 0)
+
+'change deskripsi produk'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/deskripsiProduk'), productDesc, 0)

@@ -17,6 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
-
+'tap terbitkan button'
+Mobile.tap(findTestObject('Object Repository/vera_mobile_secondhand/android.widget.Button - Terbitkan (2)'), 0)

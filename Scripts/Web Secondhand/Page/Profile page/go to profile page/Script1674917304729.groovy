@@ -17,6 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
+'go to profile page'
+WebUI.click(findTestObject('shidqi_web app secondhand/Register/Page_Secondhand Store/a_Profile'), FailureHandling.STOP_ON_FAILURE)
 

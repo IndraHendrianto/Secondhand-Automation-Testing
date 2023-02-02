@@ -17,6 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
-
+'verify alert message login exist'
+WebUI.verifyElementPresent(findTestObject('Object Repository/shidqi_web app secondhand/Register/Page_Secondhand Store/p_Akun tidak ditemukan'), 0)

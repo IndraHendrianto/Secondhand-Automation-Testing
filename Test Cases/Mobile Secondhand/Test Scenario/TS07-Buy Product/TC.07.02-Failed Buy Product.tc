@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Buy some Product</description>
+   <name>TC.07.02-Failed Buy Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25315603-c3c7-4054-923b-c886818b4906</testCaseGuid>
+</TestCaseEntity>

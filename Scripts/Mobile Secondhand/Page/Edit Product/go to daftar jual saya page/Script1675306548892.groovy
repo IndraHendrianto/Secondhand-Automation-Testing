@@ -17,6 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
-
+'go to daftar jual saya page'
+Mobile.tap(findTestObject('Object Repository/shidqi_mobile app secondhand/produk/android.widget.TextView - Daftar Jual Saya'), 0)
