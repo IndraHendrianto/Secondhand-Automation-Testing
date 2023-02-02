@@ -17,23 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'precondition success login'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import io.appium.java_client.AppiumDriver
+import com.kms.katalon.core.util.KeywordUtil
 
-'go to daftar jual saya page'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/go to daftar jual saya page'), null, FailureHandling.STOP_ON_FAILURE)
-
-'go to detail product page'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/go to detail product page'), null, FailureHandling.STOP_ON_FAILURE)
-
-'change product data'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/change product data'), null, FailureHandling.STOP_ON_FAILURE)
-
-'apply update product data'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/apply update product data'), null, FailureHandling.STOP_ON_FAILURE)
-
-'verify success update product data'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Edit Product/verify success update product data'), null, FailureHandling.STOP_ON_FAILURE)
-
-'close app'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
+'verify success update product'
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+def toast = driver.findElementByXPath("//android.widget.TextView[@text='Produk berhasil diperbarui']")                                            //generate mobile object spy
+if (toast == null) {
+	KeywordUtil.markFailed('ERROR: Toast object not found!')
+} else {
+	KeywordUtil.markPassed(toast.toString())
+	}
