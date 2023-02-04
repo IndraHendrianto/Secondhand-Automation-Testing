@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to update profile data</description>
    <name>TC.03.01-Success Update Profile</name>
    <tag></tag>
    <comment></comment>

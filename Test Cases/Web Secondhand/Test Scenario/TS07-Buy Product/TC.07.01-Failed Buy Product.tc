@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to make sure that the product purchase will fail if I buy the same product more than once</description>
    <name>TC.07.01-Failed Buy Product</name>
    <tag></tag>
    <comment></comment>

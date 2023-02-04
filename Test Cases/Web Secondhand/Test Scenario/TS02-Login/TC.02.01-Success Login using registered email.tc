@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to login using the registered email</description>
    <name>TC.02.01-Success Login using registered email</name>
    <tag></tag>
    <comment></comment>

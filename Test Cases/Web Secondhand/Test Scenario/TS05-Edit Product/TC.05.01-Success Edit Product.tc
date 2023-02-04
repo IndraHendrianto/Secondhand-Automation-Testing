@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to update my product data</description>
    <name>TC.05.01-Success Edit Product</name>
    <tag></tag>
    <comment></comment>

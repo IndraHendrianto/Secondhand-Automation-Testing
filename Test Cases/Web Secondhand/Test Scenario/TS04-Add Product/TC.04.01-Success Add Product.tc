@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to add products to sell</description>
    <name>TC.04.01-Success Add Product</name>
    <tag></tag>
    <comment></comment>
