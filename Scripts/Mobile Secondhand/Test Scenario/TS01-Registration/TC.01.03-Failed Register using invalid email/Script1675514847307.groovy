@@ -17,10 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String SALTCHARS = "aaabbbcccdddeeefffggghhhiiijjjkkklllmmmnnnooopppqqqrrrssstttuuuvvvwwwxxxyyyzzz111222333444555666777888999000";
-StringBuilder salt = new StringBuilder();
-Random rnd = new Random();while (salt.length() < 13) { // length of the random string
-	int index = (int) (rnd.nextFloat() * SALTCHARS.length());
-	salt.append(SALTCHARS.charAt(index));}
-String saltStr = salt.toString();
-return saltStr + "@dummy.com";
+'start application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/start application'), null, FailureHandling.STOP_ON_FAILURE)
+
+'go to login page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'go to daftar page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/go to daftar page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'input user registration data with invalid email'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/input user registration data'), [('email'): ('binaracademy')], FailureHandling.STOP_ON_FAILURE)
+
+'apply registration'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/apply registration'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify invalid email alert message exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/verify invalid email alert message exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
+

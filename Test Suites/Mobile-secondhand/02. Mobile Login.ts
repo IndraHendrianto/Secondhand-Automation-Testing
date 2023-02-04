@@ -25,4 +25,25 @@
       <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.02-Failed Login using unregistered email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>dcf9adac-aa28-4bcb-b524-3288fa5377b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.03-Failed Login using invalid email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4e4310ff-baea-4795-b1d0-e0e6926164de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.04-Failed Login using empty email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8fac07dd-a393-4860-9a45-6103452612e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.05-Failed Login using empty password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

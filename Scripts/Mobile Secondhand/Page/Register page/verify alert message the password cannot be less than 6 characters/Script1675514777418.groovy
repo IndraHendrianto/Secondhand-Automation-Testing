@@ -17,10 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String SALTCHARS = "aaabbbcccdddeeefffggghhhiiijjjkkklllmmmnnnooopppqqqrrrssstttuuuvvvwwwxxxyyyzzz111222333444555666777888999000";
-StringBuilder salt = new StringBuilder();
-Random rnd = new Random();while (salt.length() < 13) { // length of the random string
-	int index = (int) (rnd.nextFloat() * SALTCHARS.length());
-	salt.append(SALTCHARS.charAt(index));}
-String saltStr = salt.toString();
-return saltStr + "@dummy.com";
+'Verify alert message the password cannot be less than 6 characters'
+Mobile.verifyElementExist(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.TextView - Password harus lebih dari 6 karakter'), 0)

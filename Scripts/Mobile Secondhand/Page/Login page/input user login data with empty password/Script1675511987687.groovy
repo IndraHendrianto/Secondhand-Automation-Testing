@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String SALTCHARS = "aaabbbcccdddeeefffggghhhiiijjjkkklllmmmnnnooopppqqqrrrssstttuuuvvvwwwxxxyyyzzz111222333444555666777888999000";
-StringBuilder salt = new StringBuilder();
-Random rnd = new Random();while (salt.length() < 13) { // length of the random string
-	int index = (int) (rnd.nextFloat() * SALTCHARS.length());
-	salt.append(SALTCHARS.charAt(index));}
-String saltStr = salt.toString();
-return saltStr + "@dummy.com";
+'input email'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan email'),
+	emailLogin, 0)
+
+'input password'
+Mobile.setEncryptedText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan password'),
+	'', 0)

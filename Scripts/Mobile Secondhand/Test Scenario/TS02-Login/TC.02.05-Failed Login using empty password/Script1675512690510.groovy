@@ -17,10 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String SALTCHARS = "aaabbbcccdddeeefffggghhhiiijjjkkklllmmmnnnooopppqqqrrrssstttuuuvvvwwwxxxyyyzzz111222333444555666777888999000";
-StringBuilder salt = new StringBuilder();
-Random rnd = new Random();while (salt.length() < 13) { // length of the random string
-	int index = (int) (rnd.nextFloat() * SALTCHARS.length());
-	salt.append(SALTCHARS.charAt(index));}
-String saltStr = salt.toString();
-return saltStr + "@dummy.com";
+'start application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/start application'), null, FailureHandling.STOP_ON_FAILURE)
+
+'go to login page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'input already email'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input user login data with empty password'), [('emailLogin'):('cobates@mail.com')], FailureHandling.STOP_ON_FAILURE)
+
+'apply login'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify mandatory password alert message exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/verify mandatory password alert message exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
