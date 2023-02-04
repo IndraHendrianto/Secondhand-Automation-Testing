@@ -15,28 +15,28 @@
       <guid>5799484f-7db5-44f3-a7f8-e46372883a0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS02-Login/TC.02.01-Success Login using registered email</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.002-Login/TC.002.001-Success Login using registered email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7146d7b9-d740-4a7b-8758-f4cd79b3812f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS02-Login/TC.02.02-Failed Login using unregistered email</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.002-Login/TC.002.002-Failed Login using unregistered email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>25732a86-b629-45c1-9e26-540d4be9adc9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS02-Login/TC.02.03-Failed Login using wrong password</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.002-Login/TC.002.003-Failed Login using wrong password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4ce91759-8076-414b-a5d2-6b7dce868bad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS00-Home Page/TC.00.01-Homepage</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.000-Home Page/TC.000.001-Homepage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -15,14 +15,14 @@
       <guid>6a07d4bf-b734-46bf-a612-96a30e2750d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS07-Buy Product/TC.07.01-Negative Buy Product</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.007-Buy Product/TC.007.001-Negative Buy Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>79483b25-6be5-44e4-ba78-416e21c3ef31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS07-Buy Product/TC.07.02-Positive Buy Product</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.007-Buy Product/TC.007.002-Positive Buy Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

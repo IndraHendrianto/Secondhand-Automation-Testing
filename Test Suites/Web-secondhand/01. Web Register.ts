@@ -15,14 +15,14 @@
       <guid>b0d0bca0-cb6e-4272-a755-7f77adbdc621</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS01-Registration/TC.01.01-Success Register using valid data</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.001-Registration/TC.001.001-Success Register using valid data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7ca38bd8-7258-4124-9e6d-274fb9d7fa26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS01-Registration/TC.01.02-Failed Register using registered email</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.001-Registration/TC.001.002-Failed Register using registered email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

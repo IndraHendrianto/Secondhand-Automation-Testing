@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user, I want to login using the registered email</description>
+   <name>TC.002.001-Success Login using registered email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d76c32d7-1d42-47a8-9e1c-21687f06f984</testCaseGuid>
+</TestCaseEntity>
