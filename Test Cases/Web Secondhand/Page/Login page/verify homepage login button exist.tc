@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify homepage login button exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30ea006e-4646-41f4-b95d-6ccbe5dfc3d2</testCaseGuid>
+</TestCaseEntity>
