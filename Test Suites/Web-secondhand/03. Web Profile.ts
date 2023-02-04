@@ -22,14 +22,14 @@
       <guid>558b6d59-f5ca-4ec5-96d6-817ee8ec4d70</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS03-Update Profile/TC.03.02- Negative Update Profile (Phone Number)</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS03-Update Profile/TC.03.02-Negative Update Profile (Phone Number)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0f8f44e4-cc74-454c-86a9-ecf415315266</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS03-Update Profile/TC.03.03- Negative Update Profile (Empty Fill)</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS03-Update Profile/TC.03.03-Negative Update Profile (Empty Fill)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
