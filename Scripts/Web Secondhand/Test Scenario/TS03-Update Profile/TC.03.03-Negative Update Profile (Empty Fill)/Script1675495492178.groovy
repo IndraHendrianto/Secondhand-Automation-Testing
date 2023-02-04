@@ -23,27 +23,22 @@ WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/open bro
 'go to login page'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
 
-'input email'
-WebUI.setText(findTestObject('Object Repository/indra_web secondhand/Negative Update Profile/input_Email_exampleInputEmail1'),
-	'anhelica@mitchelllx.com')
-
-'input password'
-WebUI.setEncryptedText(findTestObject('Object Repository/indra_web secondhand/Negative Update Profile/input_Password_exampleInputPassword1'),
-	'RigbBhfdqOBGNlJIWM1ClA==')
+'input user login data'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/user login data'), null, FailureHandling.STOP_ON_FAILURE)
 
 'apply login'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/indra_web secondhand/Negative Update Profile/svg_Belum ada notifikasi yang masuk_svg-inl_96d08a'))
-
 'go to profile page'
-WebUI.click(findTestObject('shidqi_web app secondhand/Register/Page_Secondhand Store/a_Profile'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/go to profil page'), null, FailureHandling.STOP_ON_FAILURE)
 
-'Empty fill'
-WebUI.click(findTestObject('Object Repository/indra_web secondhand/Negative Update Profile/button_submit'))
+'Empty fill and click perbarui button'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/apply update data'), null, FailureHandling.STOP_ON_FAILURE)
 
 'verify success update message exist'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/verify success update message exist'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/verify success update message exist'), null, 
+    FailureHandling.STOP_ON_FAILURE)
 
 'close browser'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)
+
