@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 'input email'
 Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan email'),
-	'cobates@mail.com', 0)
+	emailLogin, 0)
 
 'input password'
 Mobile.setEncryptedText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan password'),

@@ -15,14 +15,14 @@
       <guid>9163b0bf-0d71-4c5a-ba06-cd72499c97b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.01-Success Login</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.01-Success Login using registered email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ccb9df48-7df1-4346-a1d0-a84b8834c3b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.02-Failed Login</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS02-Login/TC.02.02-Failed Login using unregistered email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

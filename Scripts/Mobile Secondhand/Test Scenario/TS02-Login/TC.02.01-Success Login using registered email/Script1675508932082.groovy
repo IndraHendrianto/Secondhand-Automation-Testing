@@ -24,7 +24,7 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/star
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
 
 'input already email & password'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input already email and password'), null, FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input user login data'), [('emailLogin'):('cobates@mail.com')], FailureHandling.STOP_ON_FAILURE)
 
 'apply login'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)

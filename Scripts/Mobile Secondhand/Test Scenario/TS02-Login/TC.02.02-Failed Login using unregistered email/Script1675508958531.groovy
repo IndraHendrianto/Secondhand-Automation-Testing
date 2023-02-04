@@ -17,10 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'input email'
-Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan email'),
-	'cobangasal@mail.com', 0)
+'start application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/start application'), null, FailureHandling.STOP_ON_FAILURE)
 
-'input password'
-Mobile.setEncryptedText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan password'),
-	'I+363Lgg2E89y9MaUC97eA==', 0)
+'go to login page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
+
+'input unregistered email & password'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input user login data'), [('emailLogin'):('cobangasal@mail.com')], FailureHandling.STOP_ON_FAILURE)
+
+'apply login'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify toast failed login exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/verify toast failed login exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
