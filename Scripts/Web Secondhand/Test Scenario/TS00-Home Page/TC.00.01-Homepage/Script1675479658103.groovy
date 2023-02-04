@@ -22,20 +22,23 @@ WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/open bro
 
 WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Kategori'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Semua Kategori'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Button Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Button Kendaraan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Kategori'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Notification'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Semua Kategori'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Klik Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/go to login page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'input user login data'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/input user login data'), [('emailLogin'):('conilex566@quamox.com')], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/input user login data'), [('emailLogin') : 'conilex566@quamox.com'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 'apply login'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web Secondhand/Page/Home Page/Verify Notification'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)
