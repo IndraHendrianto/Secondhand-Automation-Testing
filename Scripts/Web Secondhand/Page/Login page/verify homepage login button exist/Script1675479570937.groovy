@@ -17,6 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'go to Daftar Jual Saya page' 
-Mobile.tap(findTestObject('Object Repository/Regita_mobile app secondhand/Delete_Product/android.widget.TextView - Daftar Jual Saya'),
-	0)
+'Verify element homepage login button exist'
+WebUI.verifyElementText(findTestObject('Object Repository/Regita_web app_secondhand/Page_Secondhand Store/Logout/a_Masuk'),
+	'Masuk')
