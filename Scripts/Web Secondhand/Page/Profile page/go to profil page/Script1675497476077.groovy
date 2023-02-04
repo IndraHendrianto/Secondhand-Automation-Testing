@@ -17,14 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'preconditions: login'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/preconditions-login'), null, FailureHandling.STOP_ON_FAILURE)
+'click icon user'
+WebUI.click(findTestObject('indra_web secondhand/Negative Update Profile/button_Ditawar Rp767.000,00_user'))
 
-'go to product page beli'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to product page beli'), null, FailureHandling.STOP_ON_FAILURE)
-
-'verify failed buy product'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/verify failed buy product'), null, FailureHandling.STOP_ON_FAILURE)
-
-'close browser'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)
+'go to profile page'
+WebUI.click(findTestObject('shidqi_web app secondhand/Register/Page_Secondhand Store/a_Profile'), FailureHandling.STOP_ON_FAILURE)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to delete the product data that I sell</description>
    <name>TC.06.01-Success Delete Product</name>
    <tag></tag>
    <comment></comment>

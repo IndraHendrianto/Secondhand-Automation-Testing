@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to logout from the secondhand website</description>
    <name>TC.08.01-Logout</name>
    <tag></tag>
    <comment></comment>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.03.03- Negative Update Profile (Empty Fill)</name>
+   <name>go to profil page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>06f7955b-21f7-43e0-8c0c-8463eacc9633</testCaseGuid>
+   <testCaseGuid>7c2872ba-22d4-426b-bcbc-2466c4ac69f1</testCaseGuid>
 </TestCaseEntity>

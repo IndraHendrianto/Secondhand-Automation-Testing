@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'open browser and navigate to Url'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/open browser and navigate to Url'), null, FailureHandling.STOP_ON_FAILURE)
-
-'go to login page'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
-
 'input email'
 WebUI.setText(findTestObject('Object Repository/indra_web secondhand/Negative Update Profile/input_Email_exampleInputEmail1'),
 	'anhelica@mitchelllx.com')
@@ -30,20 +24,3 @@ WebUI.setText(findTestObject('Object Repository/indra_web secondhand/Negative Up
 'input password'
 WebUI.setEncryptedText(findTestObject('Object Repository/indra_web secondhand/Negative Update Profile/input_Password_exampleInputPassword1'),
 	'RigbBhfdqOBGNlJIWM1ClA==')
-
-'apply login'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/indra_web secondhand/Negative Update Profile/svg_Belum ada notifikasi yang masuk_svg-inl_96d08a'))
-
-'go to profile page'
-WebUI.click(findTestObject('shidqi_web app secondhand/Register/Page_Secondhand Store/a_Profile'), FailureHandling.STOP_ON_FAILURE)
-
-'Empty fill'
-WebUI.click(findTestObject('Object Repository/indra_web secondhand/Negative Update Profile/button_submit'))
-
-'verify success update message exist'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Profile page/verify success update message exist'), null, FailureHandling.STOP_ON_FAILURE)
-
-'close browser'
-WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)

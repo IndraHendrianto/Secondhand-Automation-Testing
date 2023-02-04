@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user I want to access the secondhand website and be able to login</description>
    <name>TC.00.01-Homepage</name>
    <tag></tag>
    <comment></comment>

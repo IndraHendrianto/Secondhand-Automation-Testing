@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to make sure that login using unregistered email will fail</description>
    <name>TC.02.02-Failed Login using unregistered email</name>
    <tag></tag>
    <comment></comment>
