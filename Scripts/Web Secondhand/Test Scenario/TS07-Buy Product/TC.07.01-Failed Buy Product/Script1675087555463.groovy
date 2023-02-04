@@ -25,3 +25,6 @@ WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/go to pr
 
 'verify failed buy product'
 WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/Product/verify failed buy product'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close browser'
+WebUI.callTestCase(findTestCase('Test Cases/Web Secondhand/Page/General/close browser'), null, FailureHandling.STOP_ON_FAILURE)
