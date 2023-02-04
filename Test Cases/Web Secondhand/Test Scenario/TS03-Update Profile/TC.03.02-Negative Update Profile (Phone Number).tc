@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>As a user, I want to make sure the cell phone number update using alphabet</description>
-   <name>TC.03.02-Negative Update Profile (Phone Number)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fc307fd9-cf08-46a6-92ba-ef934d4bf956</testCaseGuid>
-</TestCaseEntity>

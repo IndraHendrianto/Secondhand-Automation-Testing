@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.001.003-Failed Register using invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30c960c0-7e6d-4774-9f39-cd03d9c3e743</testCaseGuid>
+</TestCaseEntity>

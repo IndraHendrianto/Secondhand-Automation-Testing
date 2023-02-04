@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC.004.003-Failed Add Product with Wrong Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e537a46-4746-4d72-aa94-fc3a0c890c46</testCaseGuid>
+</TestCaseEntity>

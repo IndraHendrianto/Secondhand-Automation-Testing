@@ -15,14 +15,14 @@
       <guid>8aff558f-a472-400c-ba1b-2e5b1ea54c48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS03-Update Profile/TC.03.01-Success Update Profile</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.003-Update Profile/TC.003.001-Success Update Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d13b6ef8-2334-44d0-96d9-347f42cf4561</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS03-Update Profile/TC.03.02-Failed Update Profile</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.003-Update Profile/TC.003.002-Failed Update Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

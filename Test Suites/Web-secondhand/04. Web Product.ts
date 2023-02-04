@@ -15,35 +15,35 @@
       <guid>7e945faf-4663-4219-b007-68404896ddc9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS04-Add Product/TC.04.01-Success Add Product</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.004-Add Product/TC.004.001-Success Add Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>25828bda-87d7-40f5-ab5f-7618c58f4464</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS04-Add Product/TC.04.02-Failed Add Product</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.004-Add Product/TC.004.002-Failed Add Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>81980bc5-1b01-47f2-ad3b-a3096f3ae6d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS05-Edit Product/TC.05.01-Success Edit Product</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.005-Edit Product/TC.005.001-Success Edit Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f63c553b-d9bf-44cd-9832-3d0b72ce599d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS06-Delete Product/TC.06.01-Success Delete Product</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.006-Delete Product/TC.006.001-Success Delete Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>16299284-4bf7-4e8b-afbf-a465f9399cd6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS07-Buy Product/TC.07.01-Failed Buy Product</testCaseId>
+      <testCaseId>Test Cases/Web Secondhand/Test Scenario/TS.007-Buy Product/TC.007.001-Failed Buy Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

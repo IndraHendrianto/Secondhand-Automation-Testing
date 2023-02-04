@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user, I want to register using valid data</description>
+   <name>TC.001.001-Success Register using valid data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86a9650a-9573-49a1-be4e-ae7ae5dc10e4</testCaseGuid>
+</TestCaseEntity>

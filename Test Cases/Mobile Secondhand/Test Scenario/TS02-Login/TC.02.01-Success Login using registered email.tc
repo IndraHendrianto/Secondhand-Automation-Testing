@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.02.01-Success Login using registered email</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fbdeb815-d199-459b-b6cb-47237a7bafdf</testCaseGuid>
-</TestCaseEntity>

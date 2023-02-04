@@ -15,21 +15,21 @@
       <guid>8fc12f89-a82e-4359-b10f-c3bcad42b2e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS04-Add Product/TC.04.01-Success Add New Product</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.004-Add Product/TC.004.001-Success Add New Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>596d06e9-9c6d-4203-bc62-dc1377887832</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS04-Add Product/TC.04.02-Failed Add Product more than 5</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.004-Add Product/TC.004.002-Failed Add Product more than 5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a40cdad7-e95a-4b70-bc4a-65216c07f70e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS04-Add Product/TC.04.03-Failed Add Product with Wrong Price</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.004-Add Product/TC.004.003-Failed Add Product with Wrong Price</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

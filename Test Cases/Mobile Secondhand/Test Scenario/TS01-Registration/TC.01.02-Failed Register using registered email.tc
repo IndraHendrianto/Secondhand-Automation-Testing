@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC.01.02-Failed Register using registered email</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b079a99c-0ec0-4382-b10a-643d35091c66</testCaseGuid>
-</TestCaseEntity>

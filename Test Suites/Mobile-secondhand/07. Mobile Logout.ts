@@ -15,7 +15,7 @@
       <guid>085e1375-8add-4080-a084-282db7b81db7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS08-Logout/TC.08.01-Login Logout</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.008-Logout/TC.008.001-Login Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
