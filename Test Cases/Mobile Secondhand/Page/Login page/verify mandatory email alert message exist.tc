@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify mandatory email alert message exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcd54307-9224-415b-833c-396426fe7a29</testCaseGuid>
+</TestCaseEntity>

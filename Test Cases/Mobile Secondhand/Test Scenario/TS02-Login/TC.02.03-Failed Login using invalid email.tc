@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC.02.01-Success Login</name>
+   <name>TC.02.03-Failed Login using invalid email</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fbdeb815-d199-459b-b6cb-47237a7bafdf</testCaseGuid>
+   <testCaseGuid>9144a54f-97d4-4109-a5be-93c9adfa01c7</testCaseGuid>
 </TestCaseEntity>

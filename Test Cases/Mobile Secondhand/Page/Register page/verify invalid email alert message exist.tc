@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify invalid email alert message exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d16a553a-d798-477e-9ce2-74f478f3ae55</testCaseGuid>
+</TestCaseEntity>

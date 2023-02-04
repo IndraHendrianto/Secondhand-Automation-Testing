@@ -17,10 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'input email'
-Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan email'),
-	'cobangasal@mail.com', 0)
-
-'input password'
-Mobile.setEncryptedText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan password'),
-	'I+363Lgg2E89y9MaUC97eA==', 0)
+'verify invalid email alert message exist'
+Mobile.verifyElementExist(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.TextView - Email tidak boleh kosong'), 0)

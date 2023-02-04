@@ -17,17 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/start application'), null, FailureHandling.STOP_ON_FAILURE)
+'input email'
+Mobile.setText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan email'),
+	emailLogin, 0)
 
-'go to login page'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
-
-'input already email & password'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input user login data'), null, FailureHandling.STOP_ON_FAILURE)
-
-'apply login'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
-
-'verify title akun page exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/verify title akun page exist'), null, FailureHandling.STOP_ON_FAILURE)
+'input password'
+Mobile.setEncryptedText(findTestObject('Object Repository/shidqi_mobile app secondhand/Login/android.widget.EditText - Masukkan password'),
+	'', 0)

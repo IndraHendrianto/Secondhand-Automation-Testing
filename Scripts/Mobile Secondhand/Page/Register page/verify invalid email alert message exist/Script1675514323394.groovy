@@ -17,20 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/start application'), null, FailureHandling.STOP_ON_FAILURE)
-
-'go to login page'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
-
-'input unregistered email & password'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input unregistred email and password'), null, FailureHandling.STOP_ON_FAILURE)
-
-'apply login'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
-
-'verify toast failed login exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/verify toast failed login exist'), null, FailureHandling.STOP_ON_FAILURE)
-
-'close application'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
+'verify invalid email alert message exist'
+Mobile.verifyElementExist(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.TextView - Email tidak valid'), 0)

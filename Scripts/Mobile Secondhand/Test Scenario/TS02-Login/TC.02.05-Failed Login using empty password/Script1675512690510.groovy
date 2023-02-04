@@ -23,11 +23,14 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/star
 'go to login page'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
 
-'input already email & password'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input user login data'), null, FailureHandling.STOP_ON_FAILURE)
+'input already email'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input user login data with empty password'), [('emailLogin'):('cobates@mail.com')], FailureHandling.STOP_ON_FAILURE)
 
 'apply login'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
 
-'verify title akun page exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/verify title akun page exist'), null, FailureHandling.STOP_ON_FAILURE)
+'verify mandatory password alert message exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/verify mandatory password alert message exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)

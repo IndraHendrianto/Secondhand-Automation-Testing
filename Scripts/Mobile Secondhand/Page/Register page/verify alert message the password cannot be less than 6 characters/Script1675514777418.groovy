@@ -17,20 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'start application'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/start application'), null, FailureHandling.STOP_ON_FAILURE)
-
-'go to login page'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
-
-'input already email & password'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input already email and password'), null, FailureHandling.STOP_ON_FAILURE)
-
-'apply login'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
-
-'verify title akun page exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/verify title akun page exist'), null, FailureHandling.STOP_ON_FAILURE)
-
-'close application'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
+'Verify alert message the password cannot be less than 6 characters'
+Mobile.verifyElementExist(findTestObject('Object Repository/shidqi_mobile app secondhand/Register/register page/android.widget.TextView - Password harus lebih dari 6 karakter'), 0)

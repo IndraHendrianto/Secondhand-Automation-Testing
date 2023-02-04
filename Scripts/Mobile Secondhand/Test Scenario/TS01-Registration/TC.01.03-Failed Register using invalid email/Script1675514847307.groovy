@@ -23,11 +23,18 @@ Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/star
 'go to login page'
 Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/go to login page'), null, FailureHandling.STOP_ON_FAILURE)
 
-'input already email & password'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/input user login data'), null, FailureHandling.STOP_ON_FAILURE)
+'go to daftar page'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/go to daftar page'), null, FailureHandling.STOP_ON_FAILURE)
 
-'apply login'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Login page/apply login'), null, FailureHandling.STOP_ON_FAILURE)
+'input user registration data with invalid email'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/input user registration data'), [('email'): ('binaracademy')], FailureHandling.STOP_ON_FAILURE)
 
-'verify title akun page exist'
-Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/verify title akun page exist'), null, FailureHandling.STOP_ON_FAILURE)
+'apply registration'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/apply registration'), null, FailureHandling.STOP_ON_FAILURE)
+
+'verify invalid email alert message exist'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/Register page/verify invalid email alert message exist'), null, FailureHandling.STOP_ON_FAILURE)
+
+'close application'
+Mobile.callTestCase(findTestCase('Test Cases/Mobile Secondhand/Page/General/close application'), null, FailureHandling.STOP_ON_FAILURE)
+
