@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
    <description></description>
-   <name>TS.007-Buy Product</name>
+   <name>04. Add Product</name>
    <tag></tag>
-   <folderType>TESTCASE</folderType>
+   <folderType>INCLUDE</folderType>
 </FolderEntity>
