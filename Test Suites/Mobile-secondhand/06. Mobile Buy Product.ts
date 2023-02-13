@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7a9bb1e8-43a3-492b-b1b6-2d11541f95d0</testSuiteGuid>
+   <testSuiteGuid>661d1858-a516-44d9-b71f-71816fd1df40</testSuiteGuid>
    <testCaseLink>
-      <guid>6a07d4bf-b734-46bf-a612-96a30e2750d7</guid>
+      <guid>b0807b5b-84de-4b51-b33f-15a9106b9220</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.007-Buy Product/TC.007.001-Negative Buy Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>79483b25-6be5-44e4-ba78-416e21c3ef31</guid>
+      <guid>11a14929-96b1-4a6b-8a1c-9e4691533274</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.007-Buy Product/TC.007.002-Positive Buy Product</testCaseId>
+      <testCaseId>Test Cases/Mobile Secondhand/Test Scenario/TS.007-Buy Product/TC.007.001-Positive Buy Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
