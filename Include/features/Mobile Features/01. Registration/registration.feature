@@ -36,8 +36,8 @@ Feature: Registration
     And I input Alamat
     When I apply registration
     And I click daftar button
-    When I want to verify toast failed register message exist
-    Then I see toast failed register message is there after using registered email
+    When I want to verify failed register alert message exist
+    Then I see failed register alert with 'Email sudah digunakan' message is there after using registered email
 
   Scenario: Failed register using invalid email format
     Given I am starting the application
@@ -55,7 +55,7 @@ Feature: Registration
     When I apply registration
     And I click daftar button
     When I want to verify failed register alert message exist
-    Then I see failed register alert message is there after using an invalid email format
+    Then I see failed register alert with 'Email tidak valid' message is there after using an invalid email format
 
   Scenario: Failed register using password less then 6 characters
     Given I am starting the application
@@ -73,4 +73,4 @@ Feature: Registration
     When I apply registration
     And I click daftar button
     When I want to verify failed register alert message exist
-    Then I see failed register alert message is there after using an password of less than 6 characters
+    Then I see failed register alert with 'Password harus lebih dari 6 karakter' message is there after using an password of less than 6 characters
