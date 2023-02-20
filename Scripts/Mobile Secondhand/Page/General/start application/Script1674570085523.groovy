@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'start application'
-Mobile.startApplication('C:\\Users\\GADA\\Documents\\Program\\app-release.apk', true)
+Mobile.startApplication('D:\\Binaar\\app-release.apk', true)
 
