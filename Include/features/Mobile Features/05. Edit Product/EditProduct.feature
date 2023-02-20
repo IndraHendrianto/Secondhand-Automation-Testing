@@ -1,7 +1,7 @@
 Feature: Edit Product
   User want to edit exiting product
   
-  Rule: Users who already have an account, have already logged into the application
+  Rule: Users who already add a product, have already logged into the application
   
   Scenario: Succes Edit Product
   Given I am starting the aplication
