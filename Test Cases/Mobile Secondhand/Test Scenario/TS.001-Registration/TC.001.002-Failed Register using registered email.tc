@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>As a user, I want to make sure registration uses a registered email</description>
    <name>TC.001.002-Failed Register using registered email</name>
    <tag></tag>
    <comment></comment>
