@@ -3,45 +3,37 @@ Feature: Sold Product
    
    Rule: Users who already have an account, have already logged into the application
 
-  Scenario: Reject Order
-    Given I am starting the aplication
-    When I go to interested categorized
-    And I click penawaran produk
-    And I click diminati
-    When I Choose interested product
-    And I click "obat kumur"
-    When I Reject Product
-    And I click tolak
-    And I click iya
-    When I want to verify product rejected
-    Then I see notification "Tawaran produk ditolak"
-
-  Scenario: Cancel Product
-    Given I am starting the aplication
-    When I go to interested categorized
-    And I click penawaran product
-    And I click diminati
-    When I choose interested product
-    And I click "obat kumur"
-    When I canceled product
-    And I click terima
-    And I click status
-    And I choose batalkan transaksi
-    And I click kirim
-    When I want to verify canceled product
-    Then I see notification "Status produk berhasil diperbaharui"
-
-  Scenario: Product Has Been Sold
-    Given I am starting the aplication
-    When I go to interested categorized
-    And I click penawaran product
-    And I click diminati
-    When I choose interested Product
-    And I click "obat kumur"
-    When I accept sold product
-    And I click terima
-    And I click status
-    And I choose berhasil terjual
-    And I click kirim
-    When I want to verify canceled product
-    Then I see notification "Status produk berhasil diperbaharui"
+  Scenario: Product Success Sold
+    Given I am starting the application
+    When I have logged into seller account
+    And I go to add product page
+    And I input new product for bid
+    And I input product image
+    And I input tap Terbitkan button
+    When I have logged into buyer account
+    And I go to search page
+    And I searched for products with the name "Teh Pucuk Harum2"
+    And I tap first product on search
+    When I want to price bid product
+    And I tap Saya Tertarik button
+    And I input price of bid
+    And I tap Kirim button
+    When I have logged into seller account
+    And I am on the home page
+    When I go to product list page
+    And I tap Daftar Jual Saya button
+    When I go to interested product page
+    And I tap Diminati
+    When I go to bid information
+    And I tap bid information
+    When I accept the order buyer
+    And I tap Terima button
+    When I want to call buyer
+    And I tap Hubungi via Whatsapp button
+    When I want to check product status
+    And I tap Status button
+    When I want to change product status
+    And I tap Berhasil terjual radio button
+    And I tap Simpan button
+    When I want to verify product status
+    Then I see message "Berhasil terjual"
